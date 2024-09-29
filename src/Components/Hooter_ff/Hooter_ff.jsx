@@ -20,7 +20,7 @@ const Hooter_ff = () => {
             <Parallax strength={500}>
                 <div className="hooter_r">
                     <video
-                        src="https://www.youtube.com/watch?v=T0K25IMYxl0&embeds_referring_euri=https%3A%2F%2Fyastatic.net%2Fvideo-player%2F0x4add4491140%2Fpages-common%2Fyoutube%2Fyoutube.html&source_ve_path=Mjg2NjY"
+                        src=""
                         width='1440'
                         height='680'
                         controls
