@@ -2,7 +2,6 @@ import React from "react";
 import './Hooter_.css';
 import { Parallax } from 'react-parallax';
 import Flo from '../img/q.jpg';
-import LKO from '../img/aa.mp4';
 
 const Hooter_ff = () => {
     return (

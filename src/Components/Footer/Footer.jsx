@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Parallax, ParallaxLayer } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import Image from '../img/black.png';
 
 

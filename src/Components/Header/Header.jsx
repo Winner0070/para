@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import './Header.css';
 import Back from '../img/black.png'
 import { Parallax } from 'react-parallax';
