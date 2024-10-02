@@ -1,3 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .hooter_end {
-    height: 35rem;
+    height: 13rem;
+    justify-content: center;
+}
+
+.hooter_endf {
+    height: 0.5px;
+    width: 120rem;
+    background-color: rgb(73, 73, 73);
+}
+
+.hooter_ends_items {
+    height: 3rem;
+    width: 4rem;
+    padding: -1.5rem;
+}
+
+._items {
+    position: absolute;
+    margin-top: -4.7rem;
+    margin-left: 3rem;
+    transition: 0.2s linear;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 4rem;
+}
+
+._items:hover {
+    background-image: linear-gradient(#29178f, #000);
+    cursor:pointer;
+}
+
+.hooter_ends_items_tg {
+    position: absolute;
+    margin-top: -4.7rem;
+    margin-left: 8.7rem;
+    transition: 0.2s linear;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 4rem;
+}
+
+.hooter_ends_items_tg:hover {
+    background-image: linear-gradient(#17558f, #000);
+    cursor:pointer;
+}
+
+.__items {
+    position: absolute;
+    margin-top: -4.7rem;
+    margin-left: 15rem;
+    transition: 0.2s linear;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 4rem;
+}
+
+.__items:hover {
+    background-image: linear-gradient(#218f17, #000);
+    cursor:pointer;
+}
+
+img {
+    height: 3rem;
+}
+
+.hooter_info {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    padding: 2rem;
+    padding-left: 5.3rem;
+    display: flex;
+    color: white;
+    cursor: default;
+}
+
+.links_hooter {
+    color: white;
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+}
+
+.hooter_info_links {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    margin-top: -4rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    cursor: default;
 }

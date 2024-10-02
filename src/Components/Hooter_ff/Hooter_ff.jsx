@@ -2,6 +2,7 @@ import React from "react";
 import './Hooter_.css';
 import { Parallax } from 'react-parallax';
 import Flo from '../img/q.jpg';
+import ret from '../img/city.jpg';
 
 const Hooter_ff = () => {
     return (
@@ -16,11 +17,13 @@ const Hooter_ff = () => {
                     </div>
                 </div>
             </Parallax>
-            <div className="hg"></div>
+            <Parallax bgImage={ret} strength={700}>
+                <div className="hg"><h1 className="eee">Приятного просмотра</h1></div>
+            </Parallax>
             <Parallax strength={500}>
                 <div className="hooter_r">
                     <video
-                        src=""
+                        src="https://www.youtube.com/watch?v=K_tJTVmacHY&ysclid=m1sah5hk8o239668800"
                         width='1440'
                         height='680'
                         controls
@@ -28,6 +31,7 @@ const Hooter_ff = () => {
                     />
                 </div>
             </Parallax>
+            <div className="rrr"></div>
         </div>
     )
 }
